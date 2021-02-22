@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body onload="animate()">
+    <div class="wrapper">
+      testui
+      <div class="inner" id="inner">
+        <img
+          id="unit"
+          class="unit"
+          src="./unit.png"
+          alt="Unit"
+          style="width: 100px; height: 50px"
+        />
+      </div>
+    </div>
+
+    <!-- <div id="like_button_container"></div> -->
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <!-- Load our React component. -->
+    <script src="like_button.js"></script>
+    <script src="./animation.js"></script>
+  </body>
+</html>

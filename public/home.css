@@ -1,0 +1,16 @@
+body,
+html{
+  background-color:blue;
+  height: 100%;
+}
+.wrapper{
+  height: 100%;
+  z-index: 1;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.inner{
+  position: relative;
+  z-index: 0;
+}
